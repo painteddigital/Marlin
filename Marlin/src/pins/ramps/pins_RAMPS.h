@@ -123,7 +123,7 @@
 #define X_DIR_PIN          55
 #define X_ENABLE_PIN       38
 #ifndef X_CS_PIN
-  #define X_CS_PIN         53
+  #define X_CS_PIN         44 // default 53
 #endif
 
 #define Y_STEP_PIN         60
@@ -151,7 +151,7 @@
 #define E1_DIR_PIN         34
 #define E1_ENABLE_PIN      30
 #ifndef E1_CS_PIN
-  #define E1_CS_PIN        44
+  #define E1_CS_PIN        40 // Same as Z for dual motor drive | default 44
 #endif
 
 //
